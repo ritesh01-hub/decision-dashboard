@@ -1,0 +1,51 @@
+
+{
+  "decisions": [
+    {
+      "id": "decision-1",
+      "title": "Choose the best laptop",
+      "options": [
+        { "id": "opt-1", "name": "Dell" },
+        { "id": "opt-2", "name": "HP" },
+        { "id": "opt-3", "name": "Lenovo" }
+      ],
+      "criteria": [
+        {
+          "id": "cri-1",
+          "name": "Performance",
+          "weight": 40,
+          "type": "benefit"
+        },
+        {
+          "id": "cri-2",
+          "name": "Price",
+          "weight": 35,
+          "type": "cost"
+        },
+        {
+          "id": "cri-3",
+          "name": "Battery",
+          "weight": 25,
+          "type": "benefit"
+        }
+      ],
+      "scores": {
+        "opt-1": {
+          "cri-1": 90,
+          "cri-2": 70,
+          "cri-3": 85
+        },
+        "opt-2": {
+          "cri-1": 80,
+          "cri-2": 90,
+          "cri-3": 75
+        },
+        "opt-3": {
+          "cri-1": 95,
+          "cri-2": 65,
+          "cri-3": 90
+        }
+      }
+    }
+  ]
+}
